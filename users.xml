@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user id="2" contextid="5">
+    <username>user</username>
+    <idnumber></idnumber>
+    <email>user@example.com</email>
+    <phone1></phone1>
+    <phone2></phone2>
+    <institution></institution>
+    <department></department>
+    <address></address>
+    <city></city>
+    <country></country>
+    <lastip>192.168.65.1</lastip>
+    <picture>0</picture>
+    <description>$@NULL@$</description>
+    <descriptionformat>1</descriptionformat>
+    <imagealt>$@NULL@$</imagealt>
+    <auth>manual</auth>
+    <firstnamephonetic>$@NULL@$</firstnamephonetic>
+    <lastnamephonetic>$@NULL@$</lastnamephonetic>
+    <middlename>$@NULL@$</middlename>
+    <alternatename>$@NULL@$</alternatename>
+    <firstname>Admin</firstname>
+    <lastname>User</lastname>
+    <confirmed>1</confirmed>
+    <policyagreed>0</policyagreed>
+    <deleted>0</deleted>
+    <lang>en</lang>
+    <theme></theme>
+    <timezone>99</timezone>
+    <firstaccess>1691020140</firstaccess>
+    <lastaccess>1696550154</lastaccess>
+    <lastlogin>1696457533</lastlogin>
+    <currentlogin>1696542465</currentlogin>
+    <mailformat>1</mailformat>
+    <maildigest>0</maildigest>
+    <maildisplay>1</maildisplay>
+    <autosubscribe>1</autosubscribe>
+    <trackforums>0</trackforums>
+    <timecreated>0</timecreated>
+    <timemodified>1691019932</timemodified>
+    <trustbitmask>0</trustbitmask>
+    <custom_fields>
+    </custom_fields>
+    <tags>
+    </tags>
+    <preferences>
+      <preference id="1">
+        <name>core_message_migrate_data</name>
+        <value>1</value>
+      </preference>
+      <preference id="2">
+        <name>core_user_welcome</name>
+        <value>1691020142</value>
+      </preference>
+      <preference id="3">
+        <name>login_failed_count_since_success</name>
+        <value>0</value>
+      </preference>
+      <preference id="4">
+        <name>tool_usertours_tour_completion_time_4</name>
+        <value>1691020146</value>
+      </preference>
+      <preference id="5">
+        <name>tool_usertours_tour_completion_time_3</name>
+        <value>1691020167</value>
+      </preference>
+      <preference id="6">
+        <name>drawer-open-index</name>
+        <value>1</value>
+      </preference>
+      <preference id="7">
+        <name>tool_usertours_tour_completion_time_2</name>
+        <value>1691022070</value>
+      </preference>
+      <preference id="10">
+        <name>core_contentbank_view_list</name>
+        <value>1</value>
+      </preference>
+      <preference id="11">
+        <name>filemanager_recentviewmode</name>
+        <value>1</value>
+      </preference>
+      <preference id="12">
+        <name>filepicker_recentrepository</name>
+        <value>5</value>
+      </preference>
+      <preference id="13">
+        <name>filepicker_recentlicense</name>
+        <value>unknown</value>
+      </preference>
+      <preference id="17">
+        <name>userselector_preserveselected</name>
+        <value>0</value>
+      </preference>
+      <preference id="18">
+        <name>userselector_autoselectunique</name>
+        <value>0</value>
+      </preference>
+      <preference id="19">
+        <name>userselector_searchanywhere</name>
+        <value>0</value>
+      </preference>
+      <preference id="22">
+        <name>htmleditor</name>
+        <value>textarea</value>
+      </preference>
+      <preference id="23">
+        <name>lesson_view</name>
+        <value>full</value>
+      </preference>
+      <preference id="24">
+        <name>question_bank_recurse</name>
+        <value>1</value>
+      </preference>
+      <preference id="25">
+        <name>question_bank_showhidden</name>
+        <value>0</value>
+      </preference>
+      <preference id="26">
+        <name>question_bank_qbshowtext</name>
+        <value>0</value>
+      </preference>
+      <preference id="27">
+        <name>qtype_multichoice_defaultmark</name>
+        <value>1</value>
+      </preference>
+      <preference id="28">
+        <name>qtype_multichoice_penalty</name>
+        <value>0.3333333</value>
+      </preference>
+      <preference id="29">
+        <name>qtype_multichoice_single</name>
+        <value>0</value>
+      </preference>
+      <preference id="30">
+        <name>qtype_multichoice_shuffleanswers</name>
+        <value>1</value>
+      </preference>
+      <preference id="31">
+        <name>qtype_multichoice_answernumbering</name>
+        <value>abc</value>
+      </preference>
+      <preference id="32">
+        <name>qtype_multichoice_showstandardinstruction</name>
+        <value>0</value>
+      </preference>
+      <preference id="33">
+        <name>qtype_truefalse_defaultmark</name>
+        <value>1</value>
+      </preference>
+      <preference id="34">
+        <name>qtype_truefalse_penalty</name>
+        <value>1</value>
+      </preference>
+      <preference id="35">
+        <name>qtype_truefalse_showstandardinstruction</name>
+        <value>0</value>
+      </preference>
+      <preference id="36">
+        <name>coursesectionspreferences_11</name>
+        <value>{"indexcollapsed":[89,56,57,58,59,60,61,62,63,64,55,66,67,68,69,70]}</value>
+      </preference>
+      <preference id="37">
+        <name>coursesectionspreferences_12</name>
+        <value>{"indexcollapsed":[78]}</value>
+      </preference>
+      <preference id="38">
+        <name>coursesectionspreferences_14</name>
+        <value>{"indexcollapsed":[125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157]}</value>
+      </preference>
+    </preferences>
+    <roles>
+      <role_overrides>
+      </role_overrides>
+      <role_assignments>
+      </role_assignments>
+    </roles>
+  </user>
+</users>

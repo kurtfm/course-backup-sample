@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="259" moduleid="843" modulename="page" contextid="874">
+  <page id="259">
+    <name>Article Overview</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <content># Kubernetes Architecture Overview 
+
+A working Kubernetes deployment is called a **cluster**. A cluster consists of a set of worker machines, called nodes, that run containerized applications. Every cluster has at least one worker node.
+The worker nodes host **Pods** - a set of running containers that are the components of the application workload. 
+The control plane manages the worker nodes and the Pods in the cluster. In production environments, the control plane usually runs across multiple computers and a cluster usually runs multiple nodes, providing fault-tolerance and high availability.
+
+A Kubernetes cluster can be visualised as two main parts: a **control plane** and **nodes**.
+
+&lt;img style="width: 80%; max-width: 1000px;" alt="images/kubernetes_architecture_overview.png" src="https://raw.githubusercontent.com/redislabs-training/redislabs-training.github.io/master/img//d64a7498051cb358110d599612c9826b.png"/&gt;  
+
+~ _kubernetes.io_
+
+## Control plane
+The control plane is a collection of processes that act as the brain of the cluster, responsible for maintaining its desired state, such as which applications are running and which container images they use. It consists of several components:
+
+- **kube-apiserver**  
+    Front end of the Kubernetes control plane, handling internal and external requests. You can access the API through REST calls, through the kubectl command-line interface, or through other command-line tools such as kubeadm.
+- **etcd**  
+  A consistent and highly-available distributed key-value store database keeping configuration data and information about the state of the cluster.
+    
+- **kube-scheduler**  
+  A component that watches for newly created Pods with no assigned node, and selects the best node for them to run on. Factors taken into account for scheduling decisions include: individual and collective resource requirements, hardware/software/policy constraints, affinity and anti-affinity specifications, data locality, inter-workload interference, and deadlines.
+- **kube-controller-manager**  
+    A component running multiple controller processes (logically, each controller is a separate process, but to reduce complexity, they are all compiled into a single binary and run in a single process). One controller consults the scheduler and makes sure the correct number of pods is running. If a pod goes down, another controller notices and responds. A controller connects services to pods, so requests go to the right endpoints. And there are controllers for creating accounts and API access tokens.
+- **cloud-controller-manager**  
+    A component that embeds cloud-specific control logic making it possible to link a cluster into a cloud provider's API. 
+
+
+Control plane components can be run on any machine in the cluster. However, for simplicity, set up scripts typically start all control plane components on the same machine, and do not run user containers on this machine. In production environments, the control plane usually runs across multiple machines.
+
+
+## Nodes and Pods
+A **Node** is its own Linux environment, and could be either a physical or a virtual machine, depending on the cluster. Kubernetes runs your workload by placing containers into **Pods** to run on **Nodes**. 
+
+A **Pod** is the smallest deployable object in Kubernetes. It represents a unit of deployment: a single instance of an application which might consist of either a single container or a small number of tightly coupled containers that share resources. It's more common to have one container per pod, in which case you can think of a Pod as a Kubernetes wrapper around a single container, but in some cases where you have multiple containers tightly coupled together and having to share resources, you can have all of them encapsulated by the same Pod as a single manageable entity.
+
+Each node contains the services necessary to run Pods, managed by the control plane. Its components are:
+
+- **kubelet**  
+    An agent that runs on each node in the cluster. It makes sure that containers are running in a Pod.
+- **kube-proxy**  
+    Network proxy that runs on each node in a cluster, maintaining network rules on nodes. These network rules allow communication to your Pods from network sessions inside or outside of your cluster.
+- **Container runtime**  
+    The software responsible for running containers. Kubernetes currently supports Docker, containerd, CRI-O, and any implementation of the Kubernetes CRI (Container Runtime Interface).
+
+
+Typically you have several nodes in a cluster; in a learning or resource-limited environment, you might have just one.
+
+## The Kubernetes Master
+
+The **Kubernetes Master** is the node that runs the control plane processes and  controls each worker node. When you interact with Kubernetes (for example by using the `kubectl` command-line interface) you're communicating with your cluster's Kubernetes master.</content>
+    <contentformat>4</contentformat>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>5</display>
+    <displayoptions>a:2:{s:10:"printintro";s:1:"0";s:17:"printlastmodified";s:1:"1";}</displayoptions>
+    <revision>1</revision>
+    <timemodified>1680581784</timemodified>
+  </page>
+</activity>

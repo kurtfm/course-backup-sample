@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file id="6035">
+    <contenthash>b0a0f99638bca072a20f49a513f58426cfa453e2</contenthash>
+    <contextid>871</contextid>
+    <component>course</component>
+    <filearea>overviewfiles</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>redis-logo.jpg</filename>
+    <userid>2</userid>
+    <filesize>7054</filesize>
+    <mimetype>image/jpeg</mimetype>
+    <status>0</status>
+    <timecreated>1696542549</timecreated>
+    <timemodified>1696542549</timemodified>
+    <source>redis-logo.jpg</source>
+    <author>Admin User</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="6036">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>871</contextid>
+    <component>course</component>
+    <filearea>overviewfiles</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>2</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1696542549</timecreated>
+    <timemodified>1696542549</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="6037">
+    <contenthash>5d439989590085eb4e1fbb37ac59fd9491ce9713</contenthash>
+    <contextid>873</contextid>
+    <component>mod_resource</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>presentation.pdf</filename>
+    <userid>2</userid>
+    <filesize>5533384</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1696542549</timecreated>
+    <timemodified>1696542549</timemodified>
+    <source>presentation.pdf</source>
+    <author>Admin User</author>
+    <license>unknown</license>
+    <sortorder>1</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="6038">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>873</contextid>
+    <component>mod_resource</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>2</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1696542549</timecreated>
+    <timemodified>1696542549</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+</files>
