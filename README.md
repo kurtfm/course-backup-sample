@@ -1,1 +1,0 @@
-# course-backup-sample

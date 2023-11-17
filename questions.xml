@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <question_categories>
-  <question_category id="20">
+  <question_category id="30">
     <name>top</name>
     <contextid>1</contextid>
     <contextlevel>10</contextlevel>
     <contextinstanceid>0</contextinstanceid>
     <info></info>
     <infoformat>0</infoformat>
-    <stamp>localhost:11443+230912234228+gBsHqE</stamp>
+    <stamp>localhost:11443+231101001721+xf6Ewq</stamp>
     <parent>0</parent>
     <sortorder>0</sortorder>
     <idnumber>$@NULL@$</idnumber>
     <question_bank_entries>
     </question_bank_entries>
   </question_category>
-  <question_category id="21">
+  <question_category id="31">
+    <name>Default for System</name>
+    <contextid>1</contextid>
+    <contextlevel>10</contextlevel>
+    <contextinstanceid>0</contextinstanceid>
+    <info>The default category for questions shared in context 'System'.</info>
+    <infoformat>0</infoformat>
+    <stamp>localhost:11443+231101001721+y4Mdcc</stamp>
+    <parent>30</parent>
+    <sortorder>999</sortorder>
+    <idnumber>$@NULL@$</idnumber>
+    <question_bank_entries>
+    </question_bank_entries>
+  </question_category>
+  <question_category id="32">
     <name>Default for System</name>
     <contextid>1</contextid>
     <contextlevel>10</contextlevel>
@@ -22,76 +36,62 @@
     <info>The default category for questions shared in context 'System'.</info>
     <infoformat>0</infoformat>
     <stamp>localhost:11443+230912234228+3UxNrE</stamp>
-    <parent>20</parent>
+    <parent>30</parent>
     <sortorder>999</sortorder>
     <idnumber>$@NULL@$</idnumber>
     <question_bank_entries>
     </question_bank_entries>
   </question_category>
-  <question_category id="159">
+  <question_category id="33">
     <name>top</name>
-    <contextid>878</contextid>
-    <contextlevel>70</contextlevel>
-    <contextinstanceid>847</contextinstanceid>
+    <contextid>158</contextid>
+    <contextlevel>50</contextlevel>
+    <contextinstanceid>5</contextinstanceid>
     <info></info>
     <infoformat>0</infoformat>
-    <stamp>localhost:11443+231005233259+bDhVHM</stamp>
+    <stamp>localhost:11443+231117045012+FJnVDn</stamp>
     <parent>0</parent>
     <sortorder>0</sortorder>
     <idnumber>$@NULL@$</idnumber>
     <question_bank_entries>
     </question_bank_entries>
   </question_category>
-  <question_category id="160">
+  <question_category id="34">
     <name>Default for A common quiz for TE</name>
-    <contextid>878</contextid>
+    <contextid>165</contextid>
     <contextlevel>70</contextlevel>
-    <contextinstanceid>847</contextinstanceid>
+    <contextinstanceid>141</contextinstanceid>
     <info>The default category for questions shared in context 'A common quiz for TE'.</info>
     <infoformat>0</infoformat>
     <stamp>localhost:11443+231005233259+1AAaRm</stamp>
-    <parent>159</parent>
+    <parent>38</parent>
     <sortorder>999</sortorder>
     <idnumber>$@NULL@$</idnumber>
     <question_bank_entries>
     </question_bank_entries>
   </question_category>
-  <question_category id="161">
-    <name>top</name>
-    <contextid>871</contextid>
-    <contextlevel>50</contextlevel>
-    <contextinstanceid>15</contextinstanceid>
-    <info></info>
-    <infoformat>0</infoformat>
-    <stamp>localhost:11443+231005233259+fiO1dk</stamp>
-    <parent>0</parent>
-    <sortorder>0</sortorder>
-    <idnumber>$@NULL@$</idnumber>
-    <question_bank_entries>
-    </question_bank_entries>
-  </question_category>
-  <question_category id="162">
+  <question_category id="35">
     <name>Default for Great Course</name>
-    <contextid>871</contextid>
+    <contextid>158</contextid>
     <contextlevel>50</contextlevel>
-    <contextinstanceid>15</contextinstanceid>
+    <contextinstanceid>5</contextinstanceid>
     <info>The default category for questions shared in context 'Great Course'.</info>
     <infoformat>0</infoformat>
     <stamp>localhost:11443+231005233259+4AdaVz</stamp>
-    <parent>161</parent>
+    <parent>33</parent>
     <sortorder>999</sortorder>
     <idnumber>$@NULL@$</idnumber>
     <question_bank_entries>
-      <question_bank_entry id="725">
-        <questioncategoryid>162</questioncategoryid>
+      <question_bank_entry id="172">
+        <questioncategoryid>35</questioncategoryid>
         <idnumber>$@NULL@$</idnumber>
         <ownerid>2</ownerid>
         <question_version>
-          <question_versions id="935">
+          <question_versions id="195">
             <version>1</version>
             <status>ready</status>
             <questions>
-              <question id="935">
+              <question id="195">
                 <parent>0</parent>
                 <name>Standard choose one?</name>
                 <questiontext>Standard choose one? (MD format)</questiontext>
@@ -109,21 +109,21 @@
                 <modifiedby>2</modifiedby>
                 <plugin_qtype_multichoice_question>
                   <answers>
-                    <answer id="3246">
+                    <answer id="752">
                       <answertext>This is the one!</answertext>
                       <answerformat>1</answerformat>
                       <fraction>1.0000000</fraction>
                       <feedback></feedback>
                       <feedbackformat>1</feedbackformat>
                     </answer>
-                    <answer id="3247">
+                    <answer id="753">
                       <answertext>Not the one</answertext>
                       <answerformat>1</answerformat>
                       <fraction>1.0000000</fraction>
                       <feedback></feedback>
                       <feedbackformat>1</feedbackformat>
                     </answer>
-                    <answer id="3248">
+                    <answer id="754">
                       <answertext>Definitely not the one</answertext>
                       <answerformat>1</answerformat>
                       <fraction>0.0000000</fraction>
@@ -131,7 +131,7 @@
                       <feedbackformat>1</feedbackformat>
                     </answer>
                   </answers>
-                  <multichoice id="684">
+                  <multichoice id="164">
                     <layout>0</layout>
                     <single>1</single>
                     <shuffleanswers>1</shuffleanswers>
@@ -163,16 +163,16 @@
           </question_versions>
         </question_version>
       </question_bank_entry>
-      <question_bank_entry id="726">
-        <questioncategoryid>162</questioncategoryid>
+      <question_bank_entry id="173">
+        <questioncategoryid>35</questioncategoryid>
         <idnumber>$@NULL@$</idnumber>
         <ownerid>2</ownerid>
         <question_version>
-          <question_versions id="936">
+          <question_versions id="196">
             <version>1</version>
             <status>ready</status>
             <questions>
-              <question id="936">
+              <question id="196">
                 <parent>0</parent>
                 <name>True/False: This is a binary question?</name>
                 <questiontext>True/False: This is a **binary** question?</questiontext>
@@ -190,14 +190,14 @@
                 <modifiedby>2</modifiedby>
                 <plugin_qtype_truefalse_question>
                   <answers>
-                    <answer id="3249">
+                    <answer id="755">
                       <answertext>True</answertext>
                       <answerformat>0</answerformat>
                       <fraction>1.0000000</fraction>
                       <feedback></feedback>
                       <feedbackformat>1</feedbackformat>
                     </answer>
-                    <answer id="3250">
+                    <answer id="756">
                       <answertext>False</answertext>
                       <answerformat>0</answerformat>
                       <fraction>0.0000000</fraction>
@@ -205,9 +205,9 @@
                       <feedbackformat>1</feedbackformat>
                     </answer>
                   </answers>
-                  <truefalse id="141">
-                    <trueanswer>3249</trueanswer>
-                    <falseanswer>3250</falseanswer>
+                  <truefalse id="21">
+                    <trueanswer>755</trueanswer>
+                    <falseanswer>756</falseanswer>
                     <showstandardinstruction>0</showstandardinstruction>
                   </truefalse>
                 </plugin_qtype_truefalse_question>
@@ -228,16 +228,16 @@
           </question_versions>
         </question_version>
       </question_bank_entry>
-      <question_bank_entry id="727">
-        <questioncategoryid>162</questioncategoryid>
+      <question_bank_entry id="174">
+        <questioncategoryid>35</questioncategoryid>
         <idnumber>$@NULL@$</idnumber>
         <ownerid>2</ownerid>
         <question_version>
-          <question_versions id="937">
+          <question_versions id="197">
             <version>1</version>
             <status>ready</status>
             <questions>
-              <question id="937">
+              <question id="197">
                 <parent>0</parent>
                 <name>This allows multiple!</name>
                 <questiontext>This allows multiple! HTML</questiontext>
@@ -255,28 +255,28 @@
                 <modifiedby>2</modifiedby>
                 <plugin_qtype_multichoice_question>
                   <answers>
-                    <answer id="3251">
+                    <answer id="757">
                       <answertext>Here is one</answertext>
                       <answerformat>1</answerformat>
                       <fraction>0.5000000</fraction>
                       <feedback></feedback>
                       <feedbackformat>1</feedbackformat>
                     </answer>
-                    <answer id="3252">
+                    <answer id="758">
                       <answertext>This should be checked</answertext>
                       <answerformat>1</answerformat>
                       <fraction>0.5000000</fraction>
                       <feedback></feedback>
                       <feedbackformat>1</feedbackformat>
                     </answer>
-                    <answer id="3253">
+                    <answer id="759">
                       <answertext>not this one</answertext>
                       <answerformat>1</answerformat>
                       <fraction>-0.5000000</fraction>
                       <feedback></feedback>
                       <feedbackformat>1</feedbackformat>
                     </answer>
-                    <answer id="3254">
+                    <answer id="760">
                       <answertext>definitely not</answertext>
                       <answerformat>1</answerformat>
                       <fraction>-0.5000000</fraction>
@@ -284,7 +284,7 @@
                       <feedbackformat>1</feedbackformat>
                     </answer>
                   </answers>
-                  <multichoice id="685">
+                  <multichoice id="165">
                     <layout>0</layout>
                     <single>0</single>
                     <shuffleanswers>1</shuffleanswers>
@@ -318,7 +318,7 @@
       </question_bank_entry>
     </question_bank_entries>
   </question_category>
-  <question_category id="163">
+  <question_category id="36">
     <name>TE Sample Bank</name>
     <contextid>1</contextid>
     <contextlevel>10</contextlevel>
@@ -326,20 +326,20 @@
     <info></info>
     <infoformat>1</infoformat>
     <stamp>localhost:11443+231005233436+oqAJ4m</stamp>
-    <parent>20</parent>
+    <parent>30</parent>
     <sortorder>999</sortorder>
     <idnumber>$@NULL@$</idnumber>
     <question_bank_entries>
-      <question_bank_entry id="722">
-        <questioncategoryid>163</questioncategoryid>
+      <question_bank_entry id="175">
+        <questioncategoryid>36</questioncategoryid>
         <idnumber>$@NULL@$</idnumber>
         <ownerid>2</ownerid>
         <question_version>
-          <question_versions id="932">
+          <question_versions id="198">
             <version>1</version>
             <status>ready</status>
             <questions>
-              <question id="932">
+              <question id="198">
                 <parent>0</parent>
                 <name>A typical TE multiple choice question - one answer</name>
                 <questiontext>A typical TE multiple choice question - one answer</questiontext>
@@ -357,28 +357,28 @@
                 <modifiedby>2</modifiedby>
                 <plugin_qtype_multichoice_question>
                   <answers>
-                    <answer id="3236">
+                    <answer id="761">
                       <answertext>An answer that is meant to fool you</answertext>
                       <answerformat>1</answerformat>
                       <fraction>0.0000000</fraction>
                       <feedback></feedback>
                       <feedbackformat>1</feedbackformat>
                     </answer>
-                    <answer id="3237">
+                    <answer id="762">
                       <answertext>The correct answer</answertext>
                       <answerformat>1</answerformat>
                       <fraction>1.0000000</fraction>
                       <feedback></feedback>
                       <feedbackformat>1</feedbackformat>
                     </answer>
-                    <answer id="3238">
+                    <answer id="763">
                       <answertext>An obviously wrong answer</answertext>
                       <answerformat>1</answerformat>
                       <fraction>0.0000000</fraction>
                       <feedback></feedback>
                       <feedbackformat>1</feedbackformat>
                     </answer>
-                    <answer id="3239">
+                    <answer id="764">
                       <answertext>Another trick answer</answertext>
                       <answerformat>1</answerformat>
                       <fraction>0.0000000</fraction>
@@ -386,7 +386,7 @@
                       <feedbackformat>1</feedbackformat>
                     </answer>
                   </answers>
-                  <multichoice id="682">
+                  <multichoice id="166">
                     <layout>0</layout>
                     <single>1</single>
                     <shuffleanswers>1</shuffleanswers>
@@ -418,16 +418,16 @@
           </question_versions>
         </question_version>
       </question_bank_entry>
-      <question_bank_entry id="723">
-        <questioncategoryid>163</questioncategoryid>
+      <question_bank_entry id="176">
+        <questioncategoryid>36</questioncategoryid>
         <idnumber>$@NULL@$</idnumber>
         <ownerid>2</ownerid>
         <question_version>
-          <question_versions id="933">
+          <question_versions id="199">
             <version>1</version>
             <status>ready</status>
             <questions>
-              <question id="933">
+              <question id="199">
                 <parent>0</parent>
                 <name>True/False: This is a TE true false?</name>
                 <questiontext>True/False: This is a TE true false?</questiontext>
@@ -445,14 +445,14 @@
                 <modifiedby>2</modifiedby>
                 <plugin_qtype_truefalse_question>
                   <answers>
-                    <answer id="3240">
+                    <answer id="765">
                       <answertext>True</answertext>
                       <answerformat>0</answerformat>
                       <fraction>1.0000000</fraction>
                       <feedback></feedback>
                       <feedbackformat>1</feedbackformat>
                     </answer>
-                    <answer id="3241">
+                    <answer id="766">
                       <answertext>False</answertext>
                       <answerformat>0</answerformat>
                       <fraction>0.0000000</fraction>
@@ -460,9 +460,9 @@
                       <feedbackformat>1</feedbackformat>
                     </answer>
                   </answers>
-                  <truefalse id="140">
-                    <trueanswer>3240</trueanswer>
-                    <falseanswer>3241</falseanswer>
+                  <truefalse id="22">
+                    <trueanswer>765</trueanswer>
+                    <falseanswer>766</falseanswer>
                     <showstandardinstruction>0</showstandardinstruction>
                   </truefalse>
                 </plugin_qtype_truefalse_question>
@@ -483,16 +483,16 @@
           </question_versions>
         </question_version>
       </question_bank_entry>
-      <question_bank_entry id="724">
-        <questioncategoryid>163</questioncategoryid>
+      <question_bank_entry id="177">
+        <questioncategoryid>36</questioncategoryid>
         <idnumber>$@NULL@$</idnumber>
         <ownerid>2</ownerid>
         <question_version>
-          <question_versions id="934">
+          <question_versions id="200">
             <version>1</version>
             <status>ready</status>
             <questions>
-              <question id="934">
+              <question id="200">
                 <parent>0</parent>
                 <name>This is a multi-answer multiple choice?</name>
                 <questiontext>This is a multi-answer multiple choice?</questiontext>
@@ -510,28 +510,28 @@
                 <modifiedby>2</modifiedby>
                 <plugin_qtype_multichoice_question>
                   <answers>
-                    <answer id="3242">
+                    <answer id="767">
                       <answertext>Not a correct choice</answertext>
                       <answerformat>1</answerformat>
                       <fraction>-0.5000000</fraction>
                       <feedback></feedback>
                       <feedbackformat>1</feedbackformat>
                     </answer>
-                    <answer id="3243">
+                    <answer id="768">
                       <answertext>Another incorrect choice</answertext>
                       <answerformat>1</answerformat>
                       <fraction>-0.5000000</fraction>
                       <feedback></feedback>
                       <feedbackformat>1</feedbackformat>
                     </answer>
-                    <answer id="3244">
+                    <answer id="769">
                       <answertext>One you should choose</answertext>
                       <answerformat>1</answerformat>
                       <fraction>0.5000000</fraction>
                       <feedback></feedback>
                       <feedbackformat>1</feedbackformat>
                     </answer>
-                    <answer id="3245">
+                    <answer id="770">
                       <answertext>Another you should choose</answertext>
                       <answerformat>1</answerformat>
                       <fraction>0.5000000</fraction>
@@ -539,7 +539,7 @@
                       <feedbackformat>1</feedbackformat>
                     </answer>
                   </answers>
-                  <multichoice id="683">
+                  <multichoice id="167">
                     <layout>0</layout>
                     <single>0</single>
                     <shuffleanswers>1</shuffleanswers>
@@ -573,30 +573,44 @@
       </question_bank_entry>
     </question_bank_entries>
   </question_category>
-  <question_category id="164">
-    <name>top</name>
-    <contextid>879</contextid>
+  <question_category id="37">
+    <name>Default for A TE quiz without question bank</name>
+    <contextid>166</contextid>
     <contextlevel>70</contextlevel>
-    <contextinstanceid>848</contextinstanceid>
+    <contextinstanceid>142</contextinstanceid>
+    <info>The default category for questions shared in context 'A TE quiz without question bank'.</info>
+    <infoformat>0</infoformat>
+    <stamp>localhost:11443+231005235109+A7Gb5H</stamp>
+    <parent>39</parent>
+    <sortorder>999</sortorder>
+    <idnumber>$@NULL@$</idnumber>
+    <question_bank_entries>
+    </question_bank_entries>
+  </question_category>
+  <question_category id="38">
+    <name>top</name>
+    <contextid>165</contextid>
+    <contextlevel>70</contextlevel>
+    <contextinstanceid>141</contextinstanceid>
     <info></info>
     <infoformat>0</infoformat>
-    <stamp>localhost:11443+231005235109+uHKKp9</stamp>
+    <stamp>localhost:11443+231117045014+dmp8Jr</stamp>
     <parent>0</parent>
     <sortorder>0</sortorder>
     <idnumber>$@NULL@$</idnumber>
     <question_bank_entries>
     </question_bank_entries>
   </question_category>
-  <question_category id="165">
-    <name>Default for A TE quiz without question bank</name>
-    <contextid>879</contextid>
+  <question_category id="39">
+    <name>top</name>
+    <contextid>166</contextid>
     <contextlevel>70</contextlevel>
-    <contextinstanceid>848</contextinstanceid>
-    <info>The default category for questions shared in context 'A TE quiz without question bank'.</info>
+    <contextinstanceid>142</contextinstanceid>
+    <info></info>
     <infoformat>0</infoformat>
-    <stamp>localhost:11443+231005235109+A7Gb5H</stamp>
-    <parent>164</parent>
-    <sortorder>999</sortorder>
+    <stamp>localhost:11443+231117045014+7pJSHD</stamp>
+    <parent>0</parent>
+    <sortorder>0</sortorder>
     <idnumber>$@NULL@$</idnumber>
     <question_bank_entries>
     </question_bank_entries>

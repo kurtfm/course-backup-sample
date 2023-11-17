@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <files>
-  <file id="6035">
+  <file id="113">
     <contenthash>b0a0f99638bca072a20f49a513f58426cfa453e2</contenthash>
-    <contextid>871</contextid>
+    <contextid>158</contextid>
     <component>course</component>
     <filearea>overviewfiles</filearea>
     <itemid>0</itemid>
@@ -12,8 +12,8 @@
     <filesize>7054</filesize>
     <mimetype>image/jpeg</mimetype>
     <status>0</status>
-    <timecreated>1696542549</timecreated>
-    <timemodified>1696542549</timemodified>
+    <timecreated>1700196613</timecreated>
+    <timemodified>1700196613</timemodified>
     <source>redis-logo.jpg</source>
     <author>Admin User</author>
     <license>unknown</license>
@@ -22,9 +22,9 @@
     <repositoryid>$@NULL@$</repositoryid>
     <reference>$@NULL@$</reference>
   </file>
-  <file id="6036">
+  <file id="114">
     <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
-    <contextid>871</contextid>
+    <contextid>158</contextid>
     <component>course</component>
     <filearea>overviewfiles</filearea>
     <itemid>0</itemid>
@@ -34,8 +34,8 @@
     <filesize>0</filesize>
     <mimetype>$@NULL@$</mimetype>
     <status>0</status>
-    <timecreated>1696542549</timecreated>
-    <timemodified>1696542549</timemodified>
+    <timecreated>1700196613</timecreated>
+    <timemodified>1700196613</timemodified>
     <source>$@NULL@$</source>
     <author>$@NULL@$</author>
     <license>$@NULL@$</license>
@@ -44,9 +44,9 @@
     <repositoryid>$@NULL@$</repositoryid>
     <reference>$@NULL@$</reference>
   </file>
-  <file id="6037">
+  <file id="115">
     <contenthash>5d439989590085eb4e1fbb37ac59fd9491ce9713</contenthash>
-    <contextid>873</contextid>
+    <contextid>160</contextid>
     <component>mod_resource</component>
     <filearea>content</filearea>
     <itemid>0</itemid>
@@ -56,8 +56,8 @@
     <filesize>5533384</filesize>
     <mimetype>application/pdf</mimetype>
     <status>0</status>
-    <timecreated>1696542549</timecreated>
-    <timemodified>1696542549</timemodified>
+    <timecreated>1700196613</timecreated>
+    <timemodified>1700196613</timemodified>
     <source>presentation.pdf</source>
     <author>Admin User</author>
     <license>unknown</license>
@@ -66,9 +66,9 @@
     <repositoryid>$@NULL@$</repositoryid>
     <reference>$@NULL@$</reference>
   </file>
-  <file id="6038">
+  <file id="116">
     <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
-    <contextid>873</contextid>
+    <contextid>160</contextid>
     <component>mod_resource</component>
     <filearea>content</filearea>
     <itemid>0</itemid>
@@ -78,11 +78,165 @@
     <filesize>0</filesize>
     <mimetype>$@NULL@$</mimetype>
     <status>0</status>
-    <timecreated>1696542549</timecreated>
-    <timemodified>1696542549</timemodified>
+    <timecreated>1700196613</timecreated>
+    <timemodified>1700196613</timemodified>
     <source>$@NULL@$</source>
     <author>$@NULL@$</author>
     <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="130">
+    <contenthash>f27e20159a6f46ae8f711073ea1cc4b2d1e20853</contenthash>
+    <contextid>167</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>data-access-control-users-with-user-in-list.png</filename>
+    <userid>2</userid>
+    <filesize>109941</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1700196770</timecreated>
+    <timemodified>1700196775</timemodified>
+    <source>data-access-control-users-with-user-in-list.png</source>
+    <author>Admin User</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="131">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>167</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>2</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1700196770</timecreated>
+    <timemodified>1700196775</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="132">
+    <contenthash>dda6a19180561b7cd52396dcade7f9162c098b9d</contenthash>
+    <contextid>167</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>data-access-control-users-add-or-edit.png</filename>
+    <userid>2</userid>
+    <filesize>34505</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1700196770</timecreated>
+    <timemodified>1700196775</timemodified>
+    <source>data-access-control-users-add-or-edit.png</source>
+    <author>Admin User</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="133">
+    <contenthash>29d6b48508393414bce8b7a9f1c99f147ce7f2ce</contenthash>
+    <contextid>167</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>data-access-control-users-password-and-finish.png</filename>
+    <userid>2</userid>
+    <filesize>40450</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1700196770</timecreated>
+    <timemodified>1700196775</timemodified>
+    <source>data-access-control-users-password-and-finish.png</source>
+    <author>Admin User</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="134">
+    <contenthash>818edd998f59140891d8cb4bbc1c2b6a61024f78</contenthash>
+    <contextid>167</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>data-access-control-users-add-role.png</filename>
+    <userid>2</userid>
+    <filesize>37343</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1700196770</timecreated>
+    <timemodified>1700196775</timemodified>
+    <source>data-access-control-users-add-role.png</source>
+    <author>Admin User</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="135">
+    <contenthash>12a168908987b2ce9770b1d45213e09975b3c7ac</contenthash>
+    <contextid>167</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>data-access-control-users-add.png</filename>
+    <userid>2</userid>
+    <filesize>75631</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1700196770</timecreated>
+    <timemodified>1700196775</timemodified>
+    <source>data-access-control-users-add.png</source>
+    <author>Admin User</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="136">
+    <contenthash>ce85283f9bc1e67cc3f0acdefde9f42e83dee872</contenthash>
+    <contextid>167</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>data-access-control-users.png</filename>
+    <userid>2</userid>
+    <filesize>87580</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1700196770</timecreated>
+    <timemodified>1700196775</timemodified>
+    <source>data-access-control-users.png</source>
+    <author>Admin User</author>
+    <license>unknown</license>
     <sortorder>0</sortorder>
     <repositorytype>$@NULL@$</repositorytype>
     <repositoryid>$@NULL@$</repositoryid>

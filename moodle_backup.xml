@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <moodle_backup>
   <information>
-    <name>backup-moodle2-course-15-great_course-20231006-0056.mbz</name>
-    <moodle_version>2023042401</moodle_version>
-    <moodle_release>4.2.1 (Build: 20230612)</moodle_release>
-    <backup_version>2023042400</backup_version>
-    <backup_release>4.2</backup_release>
-    <backup_date>1696550174</backup_date>
+    <name>backup-moodle2-course-5-great_course-20231117-0453-nu.mbz</name>
+    <moodle_version>2023100900</moodle_version>
+    <moodle_release>4.3 (Build: 20231009)</moodle_release>
+    <backup_version>2023100900</backup_version>
+    <backup_release>4.3</backup_release>
+    <backup_date>1700196826</backup_date>
     <mnet_remoteusers>0</mnet_remoteusers>
     <include_files>1</include_files>
     <include_file_references_to_external_content>0</include_file_references_to_external_content>
     <original_wwwroot>https://localhost:11443</original_wwwroot>
-    <original_site_identifier_hash>637cba310b1fe8c1367d524388519759</original_site_identifier_hash>
-    <original_course_id>15</original_course_id>
+    <original_site_identifier_hash>e9b44440df0f81193923a6e03d646063</original_site_identifier_hash>
+    <original_course_id>5</original_course_id>
     <original_course_format>topics</original_course_format>
     <original_course_fullname>This is a Great Course</original_course_fullname>
     <original_course_shortname>Great Course</original_course_shortname>
     <original_course_startdate>1680649200</original_course_startdate>
     <original_course_enddate>1712185200</original_course_enddate>
-    <original_course_contextid>871</original_course_contextid>
+    <original_course_contextid>158</original_course_contextid>
     <original_system_contextid>1</original_system_contextid>
     <details>
-      <detail backup_id="925ccbddc4b07b2c324c0bf231be5ddd">
+      <detail backup_id="5fe5cdf54caff49788c61276cc93a8ed">
         <type>course</type>
         <format>moodle2</format>
         <interactive>1</interactive>
@@ -33,91 +33,98 @@
     <contents>
       <activities>
         <activity>
-          <moduleid>841</moduleid>
-          <sectionid>190</sectionid>
+          <moduleid>135</moduleid>
+          <sectionid>44</sectionid>
           <modulename>forum</modulename>
           <title>Announcements</title>
-          <directory>activities/forum_841</directory>
+          <directory>activities/forum_135</directory>
         </activity>
         <activity>
-          <moduleid>842</moduleid>
-          <sectionid>191</sectionid>
+          <moduleid>143</moduleid>
+          <sectionid>44</sectionid>
+          <modulename>folder</modulename>
+          <title>Assets</title>
+          <directory>activities/folder_143</directory>
+        </activity>
+        <activity>
+          <moduleid>136</moduleid>
+          <sectionid>45</sectionid>
           <modulename>resource</modulename>
           <title>Slides File</title>
-          <directory>activities/resource_842</directory>
+          <directory>activities/resource_136</directory>
         </activity>
         <activity>
-          <moduleid>843</moduleid>
-          <sectionid>192</sectionid>
+          <moduleid>137</moduleid>
+          <sectionid>46</sectionid>
           <modulename>page</modulename>
           <title>Article Overview</title>
-          <directory>activities/page_843</directory>
+          <directory>activities/page_137</directory>
         </activity>
         <activity>
-          <moduleid>844</moduleid>
-          <sectionid>193</sectionid>
+          <moduleid>138</moduleid>
+          <sectionid>47</sectionid>
           <modulename>url</modulename>
           <title>Here is a link</title>
-          <directory>activities/url_844</directory>
+          <directory>activities/url_138</directory>
         </activity>
         <activity>
-          <moduleid>845</moduleid>
-          <sectionid>194</sectionid>
+          <moduleid>139</moduleid>
+          <sectionid>48</sectionid>
           <modulename>label</modulename>
           <title>## Here is a new label</title>
-          <directory>activities/label_845</directory>
+          <directory>activities/label_139</directory>
         </activity>
         <activity>
-          <moduleid>846</moduleid>
-          <sectionid>194</sectionid>
+          <moduleid>140</moduleid>
+          <sectionid>48</sectionid>
           <modulename>lesson</modulename>
           <title>Here is a Lesson</title>
-          <directory>activities/lesson_846</directory>
+          <directory>activities/lesson_140</directory>
         </activity>
         <activity>
-          <moduleid>847</moduleid>
-          <sectionid>194</sectionid>
+          <moduleid>141</moduleid>
+          <sectionid>48</sectionid>
           <modulename>quiz</modulename>
           <title>A common quiz for TE</title>
-          <directory>activities/quiz_847</directory>
+          <directory>activities/quiz_141</directory>
         </activity>
         <activity>
-          <moduleid>848</moduleid>
-          <sectionid>194</sectionid>
+          <moduleid>142</moduleid>
+          <sectionid>48</sectionid>
           <modulename>quiz</modulename>
           <title>A TE quiz without question bank</title>
-          <directory>activities/quiz_848</directory>
+          <directory>activities/quiz_142</directory>
         </activity>
       </activities>
       <sections>
         <section>
-          <sectionid>190</sectionid>
+          <sectionid>44</sectionid>
           <title>0</title>
-          <directory>sections/section_190</directory>
+          <directory>sections/section_44</directory>
         </section>
         <section>
-          <sectionid>191</sectionid>
+          <sectionid>45</sectionid>
           <title>1</title>
-          <directory>sections/section_191</directory>
+          <directory>sections/section_45</directory>
         </section>
         <section>
-          <sectionid>192</sectionid>
+          <sectionid>46</sectionid>
           <title>2</title>
-          <directory>sections/section_192</directory>
+          <directory>sections/section_46</directory>
         </section>
         <section>
-          <sectionid>193</sectionid>
+          <sectionid>47</sectionid>
           <title>3</title>
-          <directory>sections/section_193</directory>
+          <directory>sections/section_47</directory>
         </section>
         <section>
-          <sectionid>194</sectionid>
+          <sectionid>48</sectionid>
           <title>4</title>
-          <directory>sections/section_194</directory>
+          <directory>sections/section_48</directory>
         </section>
       </sections>
       <course>
-        <courseid>15</courseid>
+        <courseid>5</courseid>
         <title>Great Course</title>
         <directory>course</directory>
       </course>
@@ -126,7 +133,7 @@
       <setting>
         <level>root</level>
         <name>filename</name>
-        <value>backup-moodle2-course-15-great_course-20231006-0056.mbz</value>
+        <value>backup-moodle2-course-5-great_course-20231117-0453-nu.mbz</value>
       </setting>
       <setting>
         <level>root</level>
@@ -136,7 +143,7 @@
       <setting>
         <level>root</level>
         <name>users</name>
-        <value>1</value>
+        <value>0</value>
       </setting>
       <setting>
         <level>root</level>
@@ -146,7 +153,7 @@
       <setting>
         <level>root</level>
         <name>role_assignments</name>
-        <value>1</value>
+        <value>0</value>
       </setting>
       <setting>
         <level>root</level>
@@ -171,12 +178,12 @@
       <setting>
         <level>root</level>
         <name>comments</name>
-        <value>1</value>
+        <value>0</value>
       </setting>
       <setting>
         <level>root</level>
         <name>badges</name>
-        <value>1</value>
+        <value>0</value>
       </setting>
       <setting>
         <level>root</level>
@@ -186,7 +193,7 @@
       <setting>
         <level>root</level>
         <name>userscompletion</name>
-        <value>1</value>
+        <value>0</value>
       </setting>
       <setting>
         <level>root</level>
@@ -226,7 +233,7 @@
       <setting>
         <level>root</level>
         <name>xapistate</name>
-        <value>1</value>
+        <value>0</value>
       </setting>
       <setting>
         <level>root</level>
@@ -235,159 +242,171 @@
       </setting>
       <setting>
         <level>section</level>
-        <section>section_190</section>
-        <name>section_190_included</name>
+        <section>section_44</section>
+        <name>section_44_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>section</level>
-        <section>section_190</section>
-        <name>section_190_userinfo</name>
+        <section>section_44</section>
+        <name>section_44_userinfo</name>
+        <value>0</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>forum_135</activity>
+        <name>forum_135_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>forum_841</activity>
-        <name>forum_841_included</name>
+        <activity>forum_135</activity>
+        <name>forum_135_userinfo</name>
+        <value>0</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>folder_143</activity>
+        <name>folder_143_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>forum_841</activity>
-        <name>forum_841_userinfo</name>
+        <activity>folder_143</activity>
+        <name>folder_143_userinfo</name>
+        <value>0</value>
+      </setting>
+      <setting>
+        <level>section</level>
+        <section>section_45</section>
+        <name>section_45_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>section</level>
-        <section>section_191</section>
-        <name>section_191_included</name>
+        <section>section_45</section>
+        <name>section_45_userinfo</name>
+        <value>0</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>resource_136</activity>
+        <name>resource_136_included</name>
+        <value>1</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>resource_136</activity>
+        <name>resource_136_userinfo</name>
+        <value>0</value>
+      </setting>
+      <setting>
+        <level>section</level>
+        <section>section_46</section>
+        <name>section_46_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>section</level>
-        <section>section_191</section>
-        <name>section_191_userinfo</name>
+        <section>section_46</section>
+        <name>section_46_userinfo</name>
+        <value>0</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>page_137</activity>
+        <name>page_137_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>resource_842</activity>
-        <name>resource_842_included</name>
-        <value>1</value>
+        <activity>page_137</activity>
+        <name>page_137_userinfo</name>
+        <value>0</value>
       </setting>
       <setting>
-        <level>activity</level>
-        <activity>resource_842</activity>
-        <name>resource_842_userinfo</name>
+        <level>section</level>
+        <section>section_47</section>
+        <name>section_47_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>section</level>
-        <section>section_192</section>
-        <name>section_192_included</name>
+        <section>section_47</section>
+        <name>section_47_userinfo</name>
+        <value>0</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>url_138</activity>
+        <name>url_138_included</name>
+        <value>1</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>url_138</activity>
+        <name>url_138_userinfo</name>
+        <value>0</value>
+      </setting>
+      <setting>
+        <level>section</level>
+        <section>section_48</section>
+        <name>section_48_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>section</level>
-        <section>section_192</section>
-        <name>section_192_userinfo</name>
+        <section>section_48</section>
+        <name>section_48_userinfo</name>
+        <value>0</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>label_139</activity>
+        <name>label_139_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>page_843</activity>
-        <name>page_843_included</name>
+        <activity>label_139</activity>
+        <name>label_139_userinfo</name>
+        <value>0</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>lesson_140</activity>
+        <name>lesson_140_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>page_843</activity>
-        <name>page_843_userinfo</name>
-        <value>1</value>
+        <activity>lesson_140</activity>
+        <name>lesson_140_userinfo</name>
+        <value>0</value>
       </setting>
       <setting>
-        <level>section</level>
-        <section>section_193</section>
-        <name>section_193_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>section</level>
-        <section>section_193</section>
-        <name>section_193_userinfo</name>
+        <level>activity</level>
+        <activity>quiz_141</activity>
+        <name>quiz_141_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>url_844</activity>
-        <name>url_844_included</name>
+        <activity>quiz_141</activity>
+        <name>quiz_141_userinfo</name>
+        <value>0</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>quiz_142</activity>
+        <name>quiz_142_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>url_844</activity>
-        <name>url_844_userinfo</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>section</level>
-        <section>section_194</section>
-        <name>section_194_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>section</level>
-        <section>section_194</section>
-        <name>section_194_userinfo</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>label_845</activity>
-        <name>label_845_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>label_845</activity>
-        <name>label_845_userinfo</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>lesson_846</activity>
-        <name>lesson_846_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>lesson_846</activity>
-        <name>lesson_846_userinfo</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>quiz_847</activity>
-        <name>quiz_847_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>quiz_847</activity>
-        <name>quiz_847_userinfo</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>quiz_848</activity>
-        <name>quiz_848_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>quiz_848</activity>
-        <name>quiz_848_userinfo</name>
-        <value>1</value>
+        <activity>quiz_142</activity>
+        <name>quiz_142_userinfo</name>
+        <value>0</value>
       </setting>
     </settings>
   </information>

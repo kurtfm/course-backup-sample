@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="12" moduleid="138" modulename="url" contextid="162">
+  <url id="12">
+    <name>Here is a link</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <externalurl>https://github.com/redislabs-training/moodle-docker</externalurl>
+    <display>0</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <parameters>a:0:{}</parameters>
+    <timemodified>1680581815</timemodified>
+  </url>
+</activity>

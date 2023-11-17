@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enrolments>
   <enrols>
-    <enrol id="40">
+    <enrol id="10">
       <enrol>manual</enrol>
       <status>0</status>
       <name>$@NULL@$</name>
@@ -35,17 +35,9 @@
       <timecreated>1680581639</timecreated>
       <timemodified>1680581639</timemodified>
       <user_enrolments>
-        <enrolment id="3">
-          <status>0</status>
-          <userid>2</userid>
-          <timestart>0</timestart>
-          <timeend>0</timeend>
-          <modifierid>2</modifierid>
-          <timemodified>1696542549</timemodified>
-        </enrolment>
       </user_enrolments>
     </enrol>
-    <enrol id="41">
+    <enrol id="11">
       <enrol>guest</enrol>
       <status>1</status>
       <name>$@NULL@$</name>
@@ -81,7 +73,7 @@
       <user_enrolments>
       </user_enrolments>
     </enrol>
-    <enrol id="42">
+    <enrol id="12">
       <enrol>self</enrol>
       <status>1</status>
       <name>$@NULL@$</name>
